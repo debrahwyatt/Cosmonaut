@@ -1,0 +1,53 @@
+
+html{
+	background-color: black;
+	display: fixed;
+	overflow: hidden;
+}
+#board{
+	border: 2px solid white;
+	width: 803px;
+	height:169px;
+}
+
+
+table{
+	border:1px solid white;
+	border-collapse: collapse;
+}
+td{
+	border:1px solid white;
+	vertical-align: bottom;
+}
+
+#content{
+	height:169px;
+}
+
+*{
+	white-space: pre-wrap;
+	font-family: monospace;
+	color: white;
+}
+div{
+	display: inline;
+}
+h1{
+	text-align: center;
+}
+main{
+	display: table;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+input{
+	color: black !important;
+}
+
+#score_text{
+	display: block;
+	text-align: right;
+	padding-right: 50px;
+	padding-top: 20px;
+}
